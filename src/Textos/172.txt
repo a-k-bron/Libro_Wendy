@@ -1,0 +1,29 @@
+﻿EJEMPLO RESUELTO NO. 1:
+
+Probabilidad Condicional: refiriéndonos al ejemplo resuelto número 5 del bloque anterior.
+
+Una pizzería elabora sus pizzas en 4 tamaños: personal, mediana, familiar y jumbo. Y se ofrecen con
+1, 2 o 3 ingredientes. La siguente tabla miestra el total de pizzas vendidad por la pizzería los ultimos
+30 días.
+
+	Personal	Mediana 	Familiar 	Jumbo		Total
+1 Ing	250		200		175		150		775
+2 Ing	150		125		150		225		650
+3 Ing	100		75		125		275		575
+total	500		400		450		650		2000
+
+A) ¿Cuál es la probabilidad de que una pizza seleccionada al azar sea de tamaño personal y esté condicionada
+a tener 2 ingredientes?
+
+Utilizando la fórmula de probabilidad condicional:
+
+	P(A!B)=P(AyB)/P(B)
+
+EN este caso, la probabilidad de A y B se refiere a la intersección de las pizzas personales que tengan 2 
+ingredientes (150/2000) y la condicional probabilidad de B es las pizzas de 2 ingredientes (650/2000).
+
+	P(A!B)=(150/2000)/(650/2000)=0.2307=23.07%
+
+CONCLUSIÓN:
+
+Tenemos 23.07% de probabilidades de obtener una pizza de tamaño personal, condicionada a tener 2 ingredientes.

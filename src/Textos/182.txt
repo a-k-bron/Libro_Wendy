@@ -1,0 +1,25 @@
+﻿PROBLEMA 8.5
+Al director de una compañía de televisión por cable le gustaría extimar la probabilidad de que sus clientes
+aduieran una guía de los programas de televisión que transmite la compañía. Con un nivel de confiabilidad 
+de 95% y un error de estimacion de 5%. Experiencias anteriores indican que 30% de los clientes adquirirán 
+la guía.
+
+A)¿De qué tamaño debe ser la muestra?
+
+
+
+								R_________________________
+
+CONCLUSIÓN:
+_______________________________________________________________________________________________________
+_______________________________________________________________________________________________________
+
+PROBLEMA 8.6
+El gerente de un banco desea tener una confiabilidad de 90% de estar en lo correcto de quelos clientes tienen 
+una cuenta tanto de ahorro como de cheques. Si experiencias anteriores han determinado que 50% de ellos la 
+tienen ¿de que tamaño debe ser la muestra si se pretende un error de estimación de 5%?
+
+								R__________________________
+
+CONCLUSIÓN:
+_______________________________________________________________________________________________________

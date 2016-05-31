@@ -1,0 +1,21 @@
+﻿Ahora suponiendo que se tengan varios eventos, por ejemplo, que en el problema anterior existieran
+3, 4, 5 o más proveedoresde baterías para los teléfonos celulares, el teorema de Bayes queda de la 
+siguiente forma:
+
+	P(A1!B)=P(A1)P(B!A1)/P(A1)P(B!A2)...P(An)P(B!An)
+
+PROBLEMA 8.3 TEOREMA DE BAYES
+En el mismo fin de semana, un equipo "A" de furbol juega como local, mientras que otro equipo "B"
+juega como visitante. El equipo "A" tiene una posibilidad de 64.10% de jugar como local, mientras
+que el equipo "B" tiene 46.20% de ganar como visitante. Históricamente, cuando ambos equipos juegan
+el fin de semana, la probabilidad de que la nota principal del día siguiente se refiera al equipo 
+"A" es de 60% y del equipo "B" de 40%. Supongamos que a la mañana siguiente de este tipo de encuentros
+el encabezado de la sección deportiva es: "GANAMOS". ¿Cuál es la probabilidad de que se refiera al
+equipo "A"?
+
+Sugerencia: escribe el nombre de 2 quipos de futbol de tu agrado.
+
+
+
+
+								R______________________

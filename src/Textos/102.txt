@@ -1,0 +1,49 @@
+﻿
+Probabilidad y estadística
+Bloque 4                Medidas de forma   
+PROBLEMA 4.1
+Se tomó el coeficiente intelectual (C.I.) de 10 estudiantes seleccionados al azar de cierta preparatoria quienes pretenden ingresar a la carrera de ingeniería 
+de cierta universidad. Los resultados fueron los siguientes:
+   
+Aspirante Aspirante  Aspirante  Aspirante   Aspirante Aspirante Aspirante Aspirante  Aspirante Aspirante
+  #1        #2          #3         #4         #5        #6         #7       #8         #9        #10
+ 154	    90	       150	  131	      105	130	  122	    85	       87        93
+Determina el sesgo del coeficiente intelectual de dichos estudiantes y menciona tus conclusiones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                 Sesgo β_3R=
+Conclusión:
+
+
+Determina el apuntamiento o curtosis del coeficiente intelectual de dichos estudiantes y menciona tus conclusiones.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                    Curtosis β_4R=
+Conclusión:
+
+
+102

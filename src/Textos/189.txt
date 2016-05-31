@@ -1,0 +1,15 @@
+﻿D) ¿Cuál es la probabilidad de que cualquier joven seleccionado al azar sea fumador hombre o fume cigarros
+Camel? (Bloque 7). Elabora previamente un diagrama de Venn. (Bloque 6).
+
+
+
+
+										R=________________________
+
+E) Aplicando el teorema de Bayes, ¿cuál es la probabilidad de que un joven seleccionado al azar sea no 
+fumador? (Bloque 8).
+
+
+
+
+										R=________________________

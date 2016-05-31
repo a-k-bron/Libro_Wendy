@@ -1,0 +1,41 @@
+﻿Probabilidad y estadística
+Bloque 5                Medidas De CORRELACION
+	D) Determina el error estándar de estimación (error típico) y menciona tus conclusiones.
+                           Sxy = √((∑Y^2-a∑Y-b∑XY)/(N-2))
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                     R=
+CONCLUSION:
+
+
+
+PROBLEMA 5.2
+Una empresa comercializadora asigna el salario base de sus vendedores considerando una evaluación calificada 
+entre 0 y 100 puntos. La siguiente tabla muestra los puntuaciones obtenidas y el salario base mensual de 10 vendedores 
+seleccionados al azar a quienes se les aplico una evaluación ¿Cuál será el salario base si un vendedor tiene 70 puntos de calificación?
+Puntuación obtenida	Salario base mensual	X^2	       XY	     Y^2
+      90.00	             2,600.00			
+      60.00	             1,500.00			
+      95.00	             2,900.00			
+     100.00	             3,000.00			
+      90.00	             2,700.00			
+      65.00	             1,700.00			
+      70.00	             1,800.00			
+      80.00	             2,100.00			
+      85.00	             2,200.00			
+      85.00	             2,300.00
+SUMAS				
+                                                    
+
+
+126

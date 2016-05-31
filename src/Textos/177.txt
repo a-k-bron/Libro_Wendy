@@ -1,0 +1,12 @@
+﻿De acuerdo a la probabilidad condicional tenemos:
+
+	P(A!B)=P(AnB)/P(B)
+
+Por lo tanto, el teorema de Bayes con dos eventos tendrá las siguientes fórmulas:
+
+	P(A1!b)=P(A1)P(B!A1)/P(A1)P(B!A2)+P(A2)P(B!A2)
+
+CONCLUSIÓN:
+Suponiendo que las bateríasya estan en el proceso de ensamble y dentro de dicho proceso la máquina
+ensambladora se desocompone a causa de una batería defectuosa, podemos deducir que se tienen 42.62% 
+de que provengan del provedoor A1 y 57.38% de que provengan del provedoor A2.

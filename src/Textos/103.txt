@@ -1,0 +1,52 @@
+﻿                                                                                                          Probabilidad y estadística
+                                                                                                            Medidas de forma               bloque 4
+    PROBLEMA 4.2
+En el año 2011 se inició con el programa “El Buen Fin”, el cual pretende incrementar las ventas de bienes y servicios durante el último fin de
+ semana largo del año (en noviembre de cada año).
+La siguiente tabla muestra el total de pantallas de plasma en sus diferentes medidas que fueron vendidas por cierta tienda comercial durante el primer 
+Buen Fin de año 2011.
+
+Tamaño de la apantalla de plasma en pulgadas 	19	22	27	32	40	42	44	46	50
+Total de unidades vendidas 	                171	185	150	210	225	250	300	390	120
+
+Determina el sesgo de las ventas de las pantallas de plasma y menciona tus.
+ 
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                  Sesgo β_3R=
+
+
+Conclusión:
+ Determina el apuntamiento o curtosis de las ventas de las pantallas de plasma y    menciona tus conclusiones
+                                             
+
+
+
+
+
+                                                                                                                                    Sesgo β_3R=
+
+Conclusión:
+
+
+                                                                                                                                        103
+
+
+
+
+
+
+
+
+
+
+
+

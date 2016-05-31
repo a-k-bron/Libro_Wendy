@@ -1,0 +1,35 @@
+﻿                                                                                                            Probabilidad y estadística
+                                                                                                            Medidas de correlación               bloque 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Para obtener la línea de regresión, se toma el valor de “a” (intercepción al eje sobre el eje Y, y se grafica hacia el valor 
+   del pronóstico (Y ̂=67.73 y el valor de X (30 años ) del siguiente inciso.
+	PRONOSTICO DE Y
+C) Determina el peso estimado de una persona de 30 años 
+Las fórmulas para pronóstico en el método de regresión lineal son:
+Ecuación del pronóstico:
+                                                                
+                                    Y ̂=a+bX
+      Ecuaciones auxiliares:
+	                      1) Na + b∑X=∑Y
+	                     2)∑Xa+b ∑X^2=∑XY
+
+
+       
+
+
+                                                                                                                                                   121

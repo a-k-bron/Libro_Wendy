@@ -1,0 +1,43 @@
+﻿                                                                                                            Probabilidad y estadística
+                                                                                                            Medidas de correlación               bloque 5
+B) Indica la recta de regresión dentro de un diagrama de dispersión.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONCLUSION:
+
+
+
+C) Determina el costo de la autopista de 200 kilómetros y menciona tus conclusiones.
+Ecuación del pronóstico: Y ̂=a + bX
+Ecuaciones auxiliares: 1) Na + b∑X = ∑Y
+	               2) ∑Xa + b∑X^2 = ∑XY
+
+
+
+
+
+
+                                                                                                                                                  R=
+
+CONCLUSION:
+
+     
+ 
+   
+                                                                                                                                                             125

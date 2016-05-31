@@ -1,0 +1,40 @@
+﻿Probabilidad y estadística
+Bloque 5                Medidas De CORRELACION
+Los datos capturados en la hoja 1 de Excel quedarían de la siguiente forma:
+	      A	                                       B
+1	Edad en años (X)	               Peso en kilogramos (Y)
+2	     25	                                       60
+3	     30	                                       65
+4	     20	                                       50
+5	     30	                                       70
+6	     45	                                       80
+7	     35	                                       75
+8	     20	                                       60
+9	     30	                                       75
+10	     35	                                       80
+11	     40	                                       75
+
+La solución de los ejercicios en la hoja número 4 de Excel  quedaría de la siguiente forma.
+	              A	                                             B
+1	           resumen	
+2		
+3	 Estadísticas de la regresión	
+4	 Coeficiente de correlación múltiple	               0.876299807
+5	 Coeficiente de determinación R ⋀ 2	               0.767901352
+6	         R ⋀ 2 ajustado	                               0.738889021
+7	         Error típico	                               5.081434303
+8	        observaciones	                                    10
+9		
+10	     Análisis de varianza	                     Grados de libertad
+11		                                                     1
+12	           Regresión	                                     8
+13	           Residuos	                                     9
+14	            Total	
+15		
+16    		                                                 Regresión
+17	        Intercepción	                                 35.63559322
+18	        Variable X1	                                  1.076271186
+
+
+
+130

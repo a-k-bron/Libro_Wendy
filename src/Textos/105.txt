@@ -1,0 +1,53 @@
+﻿                                                                                                       Probabilidad y estadística
+                                                                                                            Medidas de forma               bloque 4
+      Para calcular las medidas de dispersión de los datos utilizando Excel, la tabla de Excel con sus respectivas 
+formulas quedaría de la siguiente manera:
+Tabla de fórmula de Excel 
+	A	B	C	D
+1	 Datos desordenados
+2	34.8	33.8	33.1	
+3	35.0	33.8	33.1	
+4	35.1	33.8	33.3	
+5	35.1	33.8	33.3	
+6	35.2	33.9	33.4	
+7	35.3	33.9	33.4	
+8	35.4	33.9	33.5	
+9	35.4	34.4	33.5	
+10	35.5	34.5	33.6	
+11	35.5	34.7	33.7	
+12				
+13	Sesgo o 
+Asimetría=	=COEFICIENTE.
+    ASIMETRIA(A2:C11)
+14	Curtosis o 
+apuntamiento	=Curtosis(A2:C11)
+15				
+
+Tabla de fórmula de Excel 
+	A	B	C	D
+1	Datos desordenados
+2	34.8	33.8	33.1	
+3	35.0	33.8	33.1	
+4	35.1	33.8	33.3	
+5	35.1	33.8	33.3	
+6	35.2	33.9	33.4	
+7	35.3	33.9	33.4	
+8	35.4	33.9	33.5	
+9	35.4	34.4	33.5	
+10	35.5	34.5	33.6	
+11	35.5	34.7	33.7	
+12				
+13	Sesgo o 
+Asimetría=	0.3184
+
+    
+14	Curtosis o 
+apuntamiento	-1.4543
+15				
+MINI EXAMEN
+Resuelve los problemas 4.1 a 4.2 con Excel y corrobora tus resultados con los ejercicios resueltos manualmente.
+Problema No.	Sesgo o simetría	Curtosis o apuntamiento
+4.1		
+4.2		
+
+                                                                                                                                                 105

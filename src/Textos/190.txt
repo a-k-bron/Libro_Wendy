@@ -1,0 +1,7 @@
+﻿F) Considerando una población de 5,000 estudiantes de preparatoria determina el tamaño de muestra si 
+la probabilidad de éxito es de 80% y el error de estimación de 2%. (Bloque 8).
+
+
+
+
+									R=________________________

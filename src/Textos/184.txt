@@ -1,0 +1,27 @@
+﻿PROBLEMA 8.7
+Se pretende realizar un estudio a 3,000 familias que radican en el Valle de México sobre la instalación
+de una fábrica de compuestos químicos. Se estima por experiencia una probabilidad de éxito de 70%, con 
+un error de estimación de 3% en un nivel de confiabilidad de 90%. ¿A cuántas familias se les debe realizar
+el estudio?
+
+
+
+
+									R=____________________________
+
+CONLUSIÓN:
+_______________________________________________________________________________________________________
+_______________________________________________________________________________________________________
+
+PROBLEMA 8.8
+Se pretende realizar un estudio a 4,000 personas que toman cierta marca de refresco, para lanzar al 
+mercadoun nuevo tamaño del mismo. Se estima que un 80% de ellas aceptarán el nuevo tamaño. ¿Cuál será
+el número de personas a quienes se les debe realizar el estudio, si se pretende un nivel de confiabilidad 
+de 98% con un error de estimación de 5%?
+
+
+									R=_____________________________
+
+CONCLUSIÓN:
+_______________________________________________________________________________________________________
+_______________________________________________________________________________________________________

@@ -1,0 +1,38 @@
+﻿8.4 SELECCIÓN AL AZAR CON O SIN REEMPLAZO
+Selección al azar quiere decir tormar una muestra de un cierto conjunto (como una sub-muestra o un
+sub-conjunto).
+
+Con reemplazo se refiere a que después de tomar muestra la vuelves a dejar en el conjunto de donde 
+la tomaste.
+
+Sin reemplazo se refiere a que después de tomar la muestra no la devuelves y la apartas del conjunto
+de donde la tomaste.
+
+¿En dónde se utiliza? Principalmente se usa en el control de calidad de productos o bien para desarr-
+ollar investigaciones de mercado.
+
+CON REEMPLAZO
+Supongamos que tienes una bolsa de 10, pelotas: 3 rojas, 3 negras y 4 blancas. Si tomas una pelota
+(muestra de una unidad) tienes 30% de probabilidades de sacar una pelota roja, 30% de sacar una negra
+y 40% de sacar una blanca. Después de observar qué color es, la devuelves a la bola y sacas otra pelota. 
+Como es CON REEMPLAZO, al regresar la pelota no se modifica la probabilidad. En otra muestra tendrás 
+las mismas probabilidades porque continúas teniendo las mismas 10 pelotas de los mismos colores.
+
+SIM REEMPLAZO
+Utilizamos de nuevo el ejemplo anterios; sacas una pelota y tienes 30% de probabilidad de sacar una 
+pelota roja, 30% de casar una negra y 40% de sacar una blanca. Apartas la pelota después de sacarla 
+y, dependiendo del color del que haya sido, verás que ya no tienes las 10 pelotas sino 9; por lo tanto,
+la probabilidad va disminuyendo y será más fácil deducir de qué color será la siguiente pelota.
+
+Muestreo: ANtes de inicial con este tema es importante mencionar las formas o los métodos para determinar
+los tamaños de las muestras, es decir, la parte de la población que debemos seleccionar para hacer un 
+estudio de tipo indeferencial.
+
+En los tamaños de muestra hay dos tipos de poblacion:
+
+A) Poblaciones infinitas
+B) Poblaciones finitas
+
+A) Para poblaciones infinitas: en los tamaños de muestra para determinar los valores de p y q se utilizan
+valores extraídos generalmente de la experiencia de las personas involucradas en el proceso de muestreo.
+En caso de desconocerse se otorga el valor de 50% cada uno.

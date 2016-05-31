@@ -1,0 +1,33 @@
+﻿Probabilidad y estadística
+Bloque 5                Medidas De CORRELACION
+  “N” es el número de datos, en este caso 10, las demás son las sumas o sumatorias de  cada columna
+        de la  tabla original dela página 119.
+    Sustituyendo los valores de las sumas las ecuaciones auxiliares quedarían así:
+	1) 10a + b 310= 690
+	2) 310a + b 10,200=22,025
+Resolviendo por el método de suma y restas:
+	Multiplicamos la ecuación 1 por menos 31 para eliminar la variable a.
+	1) 10a + b (310) = 690 (-31)
+	2) 310a + b 10,200 = 22,025
+ 
+        Entonces las ecuaciones quedarían:
+	1) -310a – b (9,610) = -21,390
+	2) 310a + b (10,200) = 22,025
+Y sumando las ecuaciones 1 y 2 tendríamos la siguiente ecuación:
+        b (590) = 635
+Despejando la variable b= 635/590=1.07
+Sustituyendo el valor de b en cualquiera de las 2 ecuaciones originales, por ejemplo, la ecuación
+ número 1.
+	1) 10a  + b 310 = 690
+	1) 10a + (1.07*310) =690
+	1) 10a + 331.7= 690
+Despejando a de la ecuación 1)=
+	1) a= ((690-331.7))/10
+         
+      a = 35.83
+
+
+
+
+
+122

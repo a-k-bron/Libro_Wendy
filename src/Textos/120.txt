@@ -1,0 +1,24 @@
+﻿Probabilidad y estadística
+Bloque 5                Medidas De CORRELACION
+                            r= (22,025-(10)(69)(31))/((√(10,200-10 (31)^2)(√(48,500-10 (69)^2 ) )) )=0.88
+                                                                      r=88%
+conclusión: 
+Esto quiere decir que las variables X-Y (edad y peso ) están relacionadas entre sí en 88%
+
+	5.2 RECTA DE REGRESION 
+
+                                      La recta de regresión es la que mejor se ajusta a la serie de puntos graficados en 
+                                     ejes de coordenadas X-Y.
+                                     Antes de trazar  la recta de regresión es recomendable elaborar un diagrama de 
+                                      dispersión con los datos del problema.
+B) Elabora un diagrama de dispersión y determina la recta de regresión.
+                               El diagrama de dispersión implica a una independiente (X) y una variable dependiente  (Y) cuyos
+                              Valores son graficados en dicho diagrama, esto quiere decir que los valores de edad se  graficaran
+                              en el eje de las “X”    y los valores del peso se graficaran en el eje de las “Y” debido a que el peso
+                             de una persona (“Y” , variable dependiente) depende de la edad de una persona (“X” variable 
+                              independiente).
+
+
+
+
+120

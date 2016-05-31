@@ -1,0 +1,37 @@
+﻿        Probabilidad y estadística
+Bloque 4                Medidas de forma   
+    
+       EJEMPLO RESULETO NO.1:
+De sesgo y curtosis o asimetría 
+Tomando el ejemplo resulto No. 1 de medidas de tendencia central para datos No agrupados de las 
+calificaciones de un estudiante del bloque No. 2, quien obtuvo las siguientes calificaciones durante el
+semestre, el sesgo de sus calificaciones se calcularía de la siguiente manera:
+materia	         Calificación 
+Administración	     100
+Contabilidad	     90
+Matemática	     60
+Computación	     95
+Metodología	    100
+Ingles	             85
+Suma:	            530
+PROMEDIO=530/6	   88.33
+N(número de datos)    6
+Desviación estándar σ 15.06
+
+ Sesgo β_3=6/((6-1)(6-2))*((100-88.33)^3+(90-88.33)^3+(60-88.33)^3+(95-88.33)^3+(100-88.33)^3+(85-88.33)^3)/((15.06)^3 )
+
+                                          Sesgo β_3=6/20*(-19294.22)/3414.66
+
+                                         Sesgo β_3=(0.3)(-5.64875309)=-1.69
+
+Conclusión:
+Como el sesgo es negativo (-1.69) podemos concluir que los datos se cargan hacia izquierda.  
+ 
+ 4.2. APUNTAMIENTO O CURTOSIS
+Es una medida estadística que describe el apuntamiento o achatamiento de una cierta distribución con respecto
+ a una  distribución normal. La curtosis indica una distribución relativamente apuntada, y la negativa indica una 
+distribución relativamente achatada. En una distribución normal, la curtosis es igual a 3, a los valores mayores a 3 se los 
+llama curtosis excesiva. El caso de curtosis excesiva indica que hay una mayor probabilidad de que los retornos observados estén más 
+alejados de la media que en una distribución normal. LeptoCurtosis es denomina al atributo de una distribución con muy altos índices de curtosis.
+     
+100

@@ -1,0 +1,37 @@
+﻿Probabilidad y estadística
+RUBRICAS  
+AUTOEVALUACION            
+Marca con una X tu desempeño.
+1.	Muy satisfactorio    2. Satisfactorio    3. Poco satisfactorio    4. Nada satisfactorio                                                
+	                                                                                                                                    1  2  3  4
+1.	Tu desempeños en manejo de conceptos fue:				
+2.	El manejo de la calculadora para la obtención de las diferentes cantidades fue:				
+3.	El manejo de la computadora para la solución de ejercicios fue:				
+4.	El manejo de las cantidades de los diferentes ejercicios realizados fue:				
+5.	La comprensión de los términos en las respectivas actividades realizadas fue:				
+
+RUBRICA DE EVALUACION
+Nombre del alumno:
+1.	Cumple    2.Cumple parcialmente  3. No cumple
+Indicadores de logro  	                                                                                                                      1	 2  3
+1.	Conocimientos:			
+¿Localiza las gráficas con sesgo igual a cero, positivo y negativo?			
+¿Describa la fórmula para cálculo del sesgo y la curtosis?			
+2.	Habilidades:			
+¿Interpreta los tipos de sesgos de tablas con información?			
+¿Construye diagramas para identificar el tipo de sesgo?			
+¿Utiliza la calculadora como herramienta e exploración de resultados?			
+¿Emplea los sesgos para interpretar el comportamiento de un conjunto de datos?			
+¿Construye hipótesis, diseña y aplica medidas de forma? 			
+3.	Actitudes:			
+¿Aprecia la ventaja de realizar diversas interpretaciones de sesgos?			
+¿Asume una actitud constructiva, congruente con los conocimientos y habilidades con los que cuentas, dentro de distintos equipos de trabajo? 			
+¿Actúa de manera propositiva al  resolver los ejercicios planeados?			
+4.	Situaciones didácticas:			
+El sentido común: ¿usa y razona legítimamente las medidas de forma de la estadística?			
+¿Explica acercamientos apropiados para dar entender su comprensión de las medidas de forma?			
+¿Usa conocimientos y destrezas con modelos estadísticos para explicar su domino?			
+¿Predice, estima, y evalúa las respuestas?			
+¿Demuestra que piensa con los ejemplos, lleva acabo investigación, y soluciones a los problemas que desea resolver?			
+
+106

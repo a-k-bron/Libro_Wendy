@@ -1,0 +1,36 @@
+﻿EJEMPLO RESUELTO NO. 2:
+
+Teorema de Bayes
+
+Supongamos que una empresa fabricante de teléfonos celulares adquiere las baterías de 2 proovedores 
+diferentes, a los que llamaramos A1 y A2. Actualmente 65% de las baterias son adquiridas del proovedor
+A1 y el restante 35% del proovedor A2, entonces seleccionaremos las probabilidades a priori P(A1)=0.65
+y P(A2)=0.35.
+
+De acuerdo a los datos estadísticos de compras de baterías realizadas al proovedor A1, 98 de cada 100
+baterías sí pasan el control de calidad (las llamaremos baterías buenas) y 2 de cada 100 no lo pasan 
+(las llamaremos baterías malas), en tanto que para el proovedor A2 el porcentaje de baterías que sí 
+pasan el control de calidad es de 95 y el que no pasa de 5.
+
+El siguiente diagrama de árbol nos indica el proceso del cálculo de probabilidades de acuerdo al teorema 
+Bayes. 
+
+CONCLUSIÓN:
+Se tiene 63.70% de probabilidades de que de un lote de baterías seleccionadas al azar, estas sean del 
+proovedor A1 y de que hayan pasado a control de calidad, y 1.30% de probabilidades de que sean del mismo 
+proovedor y no hayan pasado el control de calidad.
+
+CONCLUSIÓN:
+Se tiene 33.95% de probabilidades de que un lote de baterías seleccionadas al azar, sea del proovedor A2
+y de que si hayan pasado el control de calidad, mientras que hay 1.75% de probabilidades de que sean del
+mismo proovedor A2 y de que no hayan pasado el control de calidad.
+
+Ahora supón que las baterías de los dos proovedores se usan en el proceso de manufactura y que una máquina
+ensambladora de la misma se descompone a tratar de ensamblar una batería defectuosa. Dada la información de 
+que unas baterías son malas ¿cuál es la probabilidad de que sean del proovedor A1 y cuál del proovedor A2?
+Con la información del árbol de probabilidades se pueden aplicar el teorema de Bayes para responder dichas 
+preguntas.
+
+Si B reprecenta el evento de las baterías defectuosas, buscamos las probabilidades posteriores: 
+
+		P(A1!B) y P(A2!B).

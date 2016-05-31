@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frmIndice">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="588" height="1674"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e3588" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c5e94" class="javax.swing.JButton" binding="btnAceptar">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Aceptar"/>
+            </properties>
+          </component>
+          <scrollpane id="11ef0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="64eb9" class="javax.swing.JList" binding="lista">
+                <constraints/>
+                <properties>
+                  <model>
+                    <item value="003 índice"/>
+                    <item value="005 Introducción"/>
+                    <item value="006 Aplicación de las competencias de acuerdo a RIEMS"/>
+                    <item value="013 ESTADISTICA"/>
+                    <item value="013 Bloque 1 conceptos generales"/>
+                    <item value="015 Antecedentes históricos"/>
+                    <item value="015 Representación e interpretación de gráficas"/>
+                    <item value="016 Elementos fundamentales"/>
+                    <item value="016 Distribución de frecuencia"/>
+                    <item value="024 Organización de la información"/>
+                    <item value="026 A)Clasificación ordenada"/>
+                    <item value="026 B)Diagrama de Tallos y ojas&quot;,"/>
+                    <item value="027 C)El Rango"/>
+                    <item value="028 D)El tamaño de la clase"/>
+                    <item value="028 E) Tabla de distribucion de frecuencias"/>
+                    <item value="029 F)Histograma"/>
+                    <item value="030 G)El polígono de frecuencia"/>
+                    <item value="031 H) Gráfica de frecuencia relativa"/>
+                    <item value="032 I) Grafica de frecuencia acumultavia relativa"/>
+                    <item value="033 J)Una gráfica de frecuencia acumulativa"/>
+                    <item value="034 K) Gráfica de puntos o digipunto de Hunter"/>
+                    <item value="036 L)Gráfica circular de sectores o de sectores"/>
+                    <item value="041 Elaboración de gráficas con Excel"/>
+                    <item value="041 Mini Examen"/>
+                    <item value="042 Rúbricas"/>
+                    <item value="043 Bloque 2 medidas de tendencia central (para datos agrupados y no agrupados)"/>
+                    <item value="045 Media aritmética"/>
+                    <item value="045 Moda"/>
+                    <item value="046 Mediana"/>
+                    <item value="046 Mediana geométrica"/>
+                    <item value="047 Media armónica"/>
+                    <item value="064 Solución con Excel"/>
+                    <item value="069 Mini examen"/>
+                    <item value="070 Rubricas"/>
+                    <item value="071 Bloque 3 medidas de dispersión (para datos agrupados y no agrupados)"/>
+                    <item value="073 Rango para datos no agrupados"/>
+                    <item value="074 La desviación media para datos no agrupados"/>
+                    <item value="075 Desviación típica o estándar para datos no agrupados"/>
+                    <item value="076 Varianza para datos no agrupado"/>
+                    <item value="082 Rango para datos agrupados"/>
+                    <item value="083 Media aritmética para datos agrupados"/>
+                    <item value="083 Desviación media para datos agrupados"/>
+                    <item value="084 Desviación típica o estándar para datos agrupados"/>
+                    <item value="084 La varianza para datos agrupados"/>
+                    <item value="092 Solución con Excel"/>
+                    <item value="095 Mini Examen"/>
+                    <item value="096 Rubricas"/>
+                    <item value="097 Bloque 4 Medidas de formas"/>
+                    <item value="099 sesgo o skewness"/>
+                    <item value="100 apuntamiento o curtosis"/>
+                    <item value="104 solución con Excel"/>
+                    <item value="105 Mini examen"/>
+                    <item value="106 Rúbricas"/>
+                    <item value="107 Ejercicio integrador de los bloques 1,2,3,4"/>
+                    <item value="116 Bloque 5 medidas de correlación"/>
+                    <item value="119 regresión lineal"/>
+                    <item value="120 recta de regresión"/>
+                    <item value="121 pronóstico de Y"/>
+                    <item value="123 erros típico o error estándar de estimación"/>
+                    <item value="129 solución con Excel"/>
+                    <item value="131 Mini examen"/>
+                    <item value="132 Rubricas"/>
+                    <item value="133 PROBABILIDAD"/>
+                    <item value="133 Bloque 6 teorías de conjuntos"/>
+                    <item value="135 operación con conjuntos"/>
+                    <item value="137 Diagramas de ven"/>
+                    <item value="140 Teorema del binomio"/>
+                    <item value="145 Solución con Excel"/>
+                    <item value="147 Diagrama de árbol"/>
+                    <item value="150 Eventos complementarios"/>
+                    <item value="152 Rubricas"/>
+                    <item value="153 Bloque 7 técnicas de conteo"/>
+                    <item value="155 Conceptos básicos"/>
+                    <item value="155 Principio de la suma"/>
+                    <item value="157 Principio de la multiplicación"/>
+                    <item value="158 Principio de la combinación"/>
+                    <item value="159 Principio de la permutación"/>
+                    <item value="161 Aplicaciones de la regla de la suma Y regla de la multiplicación en probabilidad básica"/>
+                    <item value="168 Rubricas"/>
+                    <item value="169 Bloque 8 probabilidades para eventos"/>
+                    <item value="171 Probabilidad condicional"/>
+                    <item value="173 Eventos independientes"/>
+                    <item value="175 Teorema de Bayes"/>
+                    <item value="180 Selección al azar con o sin remplazo"/>
+                    <item value="185 Rúbricas"/>
+                    <item value="186 Tabla de distribución normal"/>
+                    <item value="187 Ejercicio integrador de los bloques 6,7 y 8"/>
+                    <item value="191 Bibliografía"/>
+                  </model>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
