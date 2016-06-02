@@ -1,0 +1,91 @@
+﻿ Datos desordenados mes de octubre  alas 15:00 horas       Datos ordenados mes de octubre alas 15:00 horas
+
+    34        36        59
+ 
+    37        60        58
+
+    59        27        51
+ 
+    76        47        50
+ 
+    86        56        64
+
+    87        63        50
+
+    76        52        58
+
+    92        42        52
+  
+    107       60        61
+ 
+    55        67        43
+
+   ...       ....       47
+
+
+
+                 Tabla de distribución de frecuencias alas 15:00 horas
+
+Columna      Tamaño de clase       Marca de clase Ki            No. de observaciones
+                                                                 o frecuencia (fi)
+  A
+
+  B
+
+  C
+
+  D 
+
+
+              Sumas
+
+
+
+
+
+
+
+
+Determina:
+
+Media aritmética:____________________
+
+
+
+
+
+
+
+La mediana:_________________________
+
+
+
+
+
+
+
+La moda:_______________________________
+
+
+
+
+
+
+
+La media geométrica:______________________________
+
+
+
+
+
+
+
+
+La media armónica:________________________________
+
+
+
+
+
+
+

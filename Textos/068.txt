@@ -1,0 +1,41 @@
+﻿13                                                                  2.0                  3.5
+14 Para ordenar los datos simplemente se copian los datos           8.8                  3.7
+15 originales (columnas A2 a E11) en la columna F, de (F2 a         9.5                  3.7
+16 F51) y se pegan posteriormente en la columna G (de G2            5.7                  3.9
+17 a G51), después se utiliza en esta última fila en la             5.9                  3.9
+18 pestaña de Inicio la función ordenar y filtrar solicitando      15.2                  4.0
+19 de los datos se ordenen de menor a mayor.                        5.6                  4.1
+20                                                                 12.9                  4.1
+21                                                                  5.9                  4.1
+22                                                                  3.4                  4.1
+23                                                                  5.4                  4.2
+24                                                                  4.3                  4.3
+25                                                                 12.1                  4.4
+26                                                                  4.7                  4.7
+27                                                                  5.7                  4.8
+28                                                                  4.2                  5.4
+29                                                                  3.3                  5.6
+30                                                                  0.7                  5.7
+31                                                                  3.9                  5.7
+32                                                                  1.6                  5.7
+33                                                                  3.9                  5.9
+34                                                                  1.6                  5.9
+35                                                                  3.9                  6.1
+36                                                                  7.1                  6.1
+37                                                                  4.0                  6.1
+38                                                                  3.7                  6.2
+39                                                                  6.1                  7.1
+40                                                                 10.3                  7.2
+41                                                                  9.2                  7.6
+42                                                                 11.1                  8.8
+43                                                                  4.1                  9.2
+44                                                                  3.0                  9.5
+45                                                                  6.1                 10.3
+46                                                                  3.7                 10.4
+47                                                                  3.5                 10.8
+48                                                                  7.6                 11.1
+49                                                                  5.7                 12.1
+50                                                                  3.1                 12.9
+51                                                                  3.1                 15.2
+52                                                                Rango =              =G51-G2                                                              
+53                                                             Tamaño de clase         =G52/5

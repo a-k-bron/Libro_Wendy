@@ -1,0 +1,35 @@
+﻿2.MEDIDAS DE TENDENCIA CENTRAL
+  (para datos no agrupados)
+
+
+TRATAMIENTOS PARA DATOS NO AGRUPADOS
+A qué se refiere esto? A la muestra que se ha tomado de la población o proceso que se desea
+analizar, menor de 20 elementos sin necesidad de formar clases con ellos. A eso se le llama
+tratamiento de datos NO agrupados
+
+2.1 MEDIA ARITMÉTICA
+Se entiende por media aritmética al promedio en una serie de datos, esto es, la suma de todos los datos 
+entre el número total de datos.
+
+EJEMPLO RESUELTO No.1:
+De medidas de tendencia central para datos No agrupados
+
+Media aritmética: Un estudiante obtuvo las siguientes calificaciones durante el semestre pasado:
+
+   Materia                                        Calificación
+  
+Administración                                     100
+Contabilidad                                        90
+Matemáticas                                         60
+Computación                                         95      
+Metodología                                        100
+Inglés                                              85
+
+Suma:                                              530
+_
+X= Ex                                  530
+   ___  = Media aritmética o Promedio= ___         88.33
+    N                                   6
+
+2.2 MODA
+Corresponde al número que más se repite en una serie de datos, en este ejemplo correspondería al número 100.

@@ -1,10 +1,7 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class frmPagina extends JDialog {
     private JPanel contentPane;
@@ -13,7 +10,6 @@ public class frmPagina extends JDialog {
     private JButton btnSiguiente;
     private JToolBar jtMenu;
     private JButton btnGraficas;
-    private FileReader f = null;
     private BufferedReader b = null;
     private int paginaSiguinte;
 
@@ -71,22 +67,23 @@ public class frmPagina extends JDialog {
     private void mostrarPagina(String numeroPagina) {
 
         try {
-            f = new FileReader("out/production/Libro_Wendy/Textos/" + numeroPagina + ".txt");
-            b = new BufferedReader(f);
+            //"out/production/Libro_Wendy/Textos/" + numeroPagina + ".txt"
+            //b = new BufferedReader(new InputStreamReader(new FileInputStream("out/production/Libro_Wendy/Textos/" + numeroPagina + ".txt"), "utf-8"));
+            b = new BufferedReader(new InputStreamReader(new FileInputStream("Textos/" + numeroPagina + ".txt"), "utf-8"));
             String cadena;
-            textArea1.setText("");
+            StringBuffer sb = new StringBuffer();
             while ((cadena = b.readLine()) != null) {
-                textArea1.setText(textArea1.getText() + cadena + "\n");
+                sb.append(cadena).append('\n');
             }
+            textArea1.setText(sb.toString());
         } catch (FileNotFoundException e) {
             JOptionPane.showMessageDialog(frmPagina.this, "se termino el libro");
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (!(f == null)) {
+            if (!(b == null)) {
                 try {
-                    f.close();
                     b.close();
                 } catch (IOException e) {
                     e.printStackTrace();

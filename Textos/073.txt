@@ -1,0 +1,42 @@
+﻿MEDIDAS DE DISPERSIÓN
+(PARA DATOS AGRUADOS Y NO AGRUPADOS)
+
+Las medidas de dsipersión, también llamadas medidas de variabilidad, muestran la variación de 
+una distribución, esto es, qué tan alejados o cercanos están los datos a la media aritmética o
+promedio que vimos en el bloque anterior.
+
+>EJEMPLO RESUELTO NO.1:
+
+De medidas de dispersión de datos no agrupados
+
+Una persona pretende salir de vacaciones pero no sabe si viajar a Monterrey o a Cancún. Su principal
+preocupación es conocer la temperatura probable que pudiera haber en cualquiera de las dos ciudades.
+
+La persona ha recabado información sobre las temperaturas en los últimos 10 días según los datos de la
+siguiente tabla:
+
+¿A qué ciudad recomendarias que viajara?
+
+                           Monterrey             Cancún
+
+                              25                   19
+                              40                   21
+                              14                   24
+                              20                   23
+                               0                   16
+                              28                   25
+                              10                   18
+                              38                   16
+                              12                   18
+                              13                   20
+                         Suma=200               Suma=200
+                        Promedio=20       Media o promedio=20
+
+
+3.1 RANGO PARA DATOS NO AGRUPADOS
+Se entiende como la diferecia entre el mayor y menor de los datos, en el ejemplo anterior sería para
+la Ciudad de Monterrey: 40 (número mayor), menos 0 (número menor)=40, esto significa que el rango de 
+temperatura en la ciudad de Monterrey es = 40.
+
+El rango de temperaturas para la Ciudad de Cancún: 25(número mayor), menos 16(número menor)=8,
+esto quiere decir que el rango de teperaturas en la ciudad de Cancún es =8.

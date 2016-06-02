@@ -1,0 +1,64 @@
+﻿PROBLEMA 2.7
+Se realizó un estudio sobre obesidad en 1,000 niños y adolescentes. El objetivoera conocer cuántos
+de ellos presentaba signos de obesidad mórbida*.
+
+De los 1,000 niños y adolescentes se determinó que 700 de ellos presentaban signos de dicho tipo
+de obesidad según la siguiente tabla.
+
+
+ De 0 a 3 años      De 4 años a        De 8 años a       De 12 años a      De 16 años a 
+   11 meses       7 años 11 meses    11 años 11 meses   15 años 11 meses  18 años cumplidos
+  
+  97 niños           127 años          185 niños          199 niños         92 jóvenes
+
+
+
+Encuentra la media aritmética, la mediana, la moda, la media geométrica y la media armónica y
+menciona tu conclusión.
+
+
+
+Media aritmética:__________________________________________
+
+
+
+
+
+
+
+Moda:_____________________________________________________
+
+
+
+
+
+
+
+Mediana:____________________________________________________
+
+
+
+
+
+
+
+Media geométrica:____________________________________________
+
+
+
+
+
+
+
+Media armónica:_______________________________________________
+
+
+
+
+
+
+CONCLUSIÓN:
+
+_________________________________________________________________________________________________
+
+_________________________________________________________________________________________________

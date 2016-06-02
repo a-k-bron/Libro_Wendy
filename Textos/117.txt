@@ -1,0 +1,13 @@
+﻿Bloque 5
+  Medidas de correlación
+ Unidades de competencias                                                                                           Conocimientos
+•Realiza predicciones entre dos variables, aplicando que los valores estadísticos                                  •Dado un texto subraya el significado del concepto de regresión lineal.
+sean de tendencia lineal, para representar situaciones y resolver problemas, 
+teóricos o prácticos,de su vida  cotidiana y escolar, que le permiten comprender y 
+transformar su realidad.                                                                                           •Conoce la notación para el cálculo del coeficiente de correlación.
+•Contrasta los resultados obtenidos mediante la aplicación del plano cartesiano y su 
+coeficiente de correlación, en el contexto de las situaciones reales o hipotéticas que describen.                  •Representan la recta de regresión en un plano cartesiano.
+•Interpreta correlación entre dos variables en gráficas y 
+textos con información relativa a la regresión lineal.                                                             •Explica el proceso para obtener el pronóstico Y.
+
+                                                                                                                   •Muestra el cálculo para obtener el error estándar de estimación.

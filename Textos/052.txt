@@ -1,0 +1,46 @@
+﻿La fórmula para la media aritmética para datos agrupados es la siguiente:
+
+_   (2.2*14)+(5.25*23)+(8.25*6)+(11.25*5)+(14.0*0)
+X =  _____________________________________________
+                       50  
+
+_    30.8 + 120.75 + 49.5 + 56.25 + 28.0           285.3
+X =  _______________________________________ =    _________ = 5.706
+                       50                           50
+
+
+
+Media aritmética: 5.706
+
+Mediana: (4.7+4.8)/2 = 4.75
+
+Moda: 4.1 se repite 4 veces.
+
+
++ Observaque el calcúlo de la mediana y de la moda es relatiavmente fácil en el momento de agrupar datos;
+sin embargo, tambienhay una fórmula para calcular, lo verems en el ejemplo resuelto No. III
+
+Media geométrica: para datos agrupados la fórmula indicada sería:
+
+
+Media geométrica= Raíz N de K1+F1+K2+F2.........KN*FN
+
+Raíz 5 de (2.2*14)+(5.25*23)+(8.25*6)+(11.25*5)+(14.0*2) = 2.56
+
+
+Media armónica H
+
+La fórmula es la misma que para el caso de datos no agrupados, salvo que en lugar de utilizar los datos
+se utilizan las marcas de clase (los puntos medios de cada clase).
+
+
+
+                                 50
+H =         ____________________________________________________  =  4.14
+                   14   +   23   +    6    +    5   +    2
+                  ____     ____      ____     _____     ____
+                  2.2      5.25      8.25      11.25     14
+
+
+
+                   

@@ -1,0 +1,48 @@
+﻿3.2 LA DESVIACIÓN MEDIA PARA DATPS NO AGRUPADOS
+Es la media aritmética de los "valores absolutos" de las desviaciones respecto al promedio.
+
+En la práctica, el "valor absoluto" significa quitar el signo negativo de delante de un número, y pensando
+en todos los numeros como números positivos.
+
+SÍMBOLO DE VALOR ABSOLUTO
+
+Para indicar el valor absoluto de algo, pones simbolos "l" a los lados, como en estos ejemplos:
+
+l-5l= 5           l7l= 7
+
+RESTAR DE LAS DOS MANERAS
+No importa en qué orden hagas una resta, su valor absoluto simpre será el mismo:
+
+l8-3l= 5     l3-8l= 5
+
+l15-4l= 11  l4-15l= 11
+
+La desviación media se representa por Dx
+                                        _        _              _    
+                                    lX1-Xl + lX2-Xl + ... + lXN-Xl
+Dx=∑_(i=1)^N▒|Xi-X ̅ |  Esto es: D-=________________________________
+                                x                N
+
+Desviación media para la ciudad de Monterrey sería la siguiente:
+ 
+D =l25-20l+l40-20l+l14-20l+l20-20l+l0-20l+l28-20l+l10-20l+l38+20l+l12-20l+l13-20l
+ x________________________________________________________________________________
+                                 10
+
+                      D  Monterrey  = 10.20
+                       x
+
+
+
+La desviación media para la ciudad de Cancún sería la siguiente:
+
+D  =l19-20l+l31-20l+l24-20l+l23-20l+l16-20l+l25-20l+l18-20l+l16-20l+l18-20l+l20-20l
+ x  ________________________________________________________________________________
+                                       10
+
+                     D  Cancún= 2.6
+                      x
+
+CONCLUSIÓN:
+
+La desviación media en Monterrey es mayor que la desviación media de Cancún.

@@ -1,0 +1,43 @@
+﻿3.8 DESVIACIÓN TÍPICA O ESTÁNDAR PARA DATOS AGRUPADOS
+La fórmula para la Desviación estándar para datos agrupados es:
+
+    N     _
+σ=√ E (Xi-xi)^2*Fi                      _           _            _
+    i=1                 Esto es σ=√ (X1-X)^2*F1+(X2-X)^2*F2..(Xn-X)^2*Fn
+    ______________                  _____________________________________
+        N-1                                     N-1
+
+
+Por lo que al sustituir nuestros valores la desviación típica quedaría:
+
+σ=√(33.5-34.13)^2*17+(34.4-34.13)^2*4+(35.2-34.13)^2*9
+   ___________________________________________________
+                  30-1
+ 
+σ=√0.3969*17+0.0729*4+1.1449*9     √6.7473+0.2916+10.3041
+  ____________________________    ________________________ =0.2138
+             30-1                         30-1
+
+
+3.9 LA VARIANZA PARA DATOS AGRUPADOS
+La fórmula para la Varianza para datos agrupadoss es:
+
+
+
+    N     _
+S=  E (Xi-x)^2*Fi                      _           _            _
+    i=1                 Esto es S= (X1-X)^2*F1+(X2-X)^2*F2..(Xn-X)^2*Fn
+    ______________                  ___________________________________
+        N                                         N     
+
+S=(33.5-34.13)^2*17+(34.4-34.13)^2*4+(35.2-34.13)^2*9
+   ___________________________________________________
+                  30
+
+S=0.3969*17+0.0729*4+1.1449*9     6.7473+0.2916+10.3041
+  ____________________________    ________________________ = 0.5781
+             30                            30
+
+CONCLUSIÓN:
+Las aeronaves vuelan en promedio 34,130 + 213.8 kilométros.
+                                        -

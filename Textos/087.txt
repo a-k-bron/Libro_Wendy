@@ -1,0 +1,42 @@
+﻿PROBLEMA 3.5 PARA DATOS AGRUPADOS
+La Procuraduria Federal del Consumidor (PROFECO), realizó un estudio sobre el precio de las playe-
+ra que se venden para las escuelas de nivel preparatoria en varias tiendas de la ciudad.
+
+La siguiente tabla muestra el precio de la playera de una muestra de 40 tiendas visitadas por la PROFECO.
+
+
+      Datos desordenados                              Datos ordenados
+    240    320    290    74
+    270    310    280    77
+    320    280    330    98
+    280    340    300   100
+    290    290    250    93
+    310    330    330    81
+    250	   270    350    81
+    350    320    300    96
+    310    250    290    93
+    260    260    310    91
+
+
+Determina:
+
+A)El rango
+
+
+
+
+
+R=
+
+
+
+B)Tamaño de clase
+
+
+
+
+
+R=
+
+
+

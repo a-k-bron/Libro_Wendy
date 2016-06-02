@@ -1,0 +1,46 @@
+﻿    
+
+             Tabla de distribución de frecuencias (tabla 3)
+
+Columna     Tamaño de clase      Marca de clase Ki         No. de observaciones
+                                                           o frecuencia(fi)
+  A
+  B
+  C
+  D 
+              Sumas
+
+
+C)La desviación media
+
+
+
+
+
+R=
+
+
+
+D)Desviación típica o estándar
+
+
+
+
+
+R=
+
+
+
+E)La varianza
+
+
+
+
+
+R=
+
+
+
+CONCLUSIÓN:
+
+________________________________________________________________________________________________

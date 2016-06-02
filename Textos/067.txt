@@ -1,0 +1,44 @@
+﻿
+Por lo que la tabla de Excel con sus resultados quedaría: 
+
+
+         A            B            C            D            E
+                          
+1                    Datos desordenados
+2     4.1          10.4          3.4          1.6           3.0 
+3     3.1           2.0          5.4          3.9          11.1 
+4     4.1           8.8          4.3          7.1           6.2
+5    10.8           9.5         12.1          4.0           4.4
+6     7.2           5.7          4.7          3.7           6.1
+7     1.5           5.9          5.7          6.1           3.7
+8     4.8          15.2          4.2         10.3           3.5
+9     4.1           5.6          3.3          9.2           7.6
+10    2.8          12.9          0.7          3.1           5.7
+11    6.1           5.9          3.9          4.1           3.1 
+12    
+13  Media o promedio         5.714    
+14    Mediana                4.75
+15     Moda                  4.10
+16  Media geométrica         4.9072
+17  Media armónica           4.0380
+
+
+
+
+
+En caso de ser necesario ordenar los datos, así como obtener el rango y tamaño de clase de los 
+mismos, se puede utilizar Excel siguiendo los siguientes pasos:
+ 
+       A          B          C           D           E                F                G    
+1          Datos desordenados                              Datos desordenados    Datos ordenados
+2     4.1      10.4         3.4         1.6       3.0             4.1                 0.7         
+3     3.1       2.0         5.4         3.9      11.1             3.1                 1.5
+4     4.1       8.8         4.3         7.1       6.2             4.1                 1.6
+5    10.8       9.5        12.1         4.0       4.4            10.8                 2.0
+6     7.2       5.7         4.7         3.7       6.1             7.2                 2.8
+7     1.5       5.9         5.7         6.1       3.7             1.5                 3.0
+8     4.8      15.2         4.2        10.3       3.5             4.8                 3.1
+9     4.1       5.6         3.3         9.2       7.6             4.1                 3.1
+10    2.8      12.9         0.7         3.1       5.7             2.8                 3.1
+11    6.1       5.9         3.9         4.1       3.1             6.1                 3.3
+12                                                               10.4                 3.4

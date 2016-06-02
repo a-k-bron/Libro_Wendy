@@ -1,0 +1,49 @@
+﻿PROBLEMA 3.3
+Durante un experimento en un laboratorio se encontró que el tiempo que tardaba en reaccionar cierto
+reactivo variaba de acuerdo a las condiciones atmosféricas. La siguiente tabla muestra el tiempo en
+minutos que tardó en reaccionar dicho reactivo en una muestra tomada los últimos 30 días.
+
+Encuentra el rango, la desviación media, desviación típica o estándar y la varianza.
+
+
+   23  28  45  88  45  8   65  18  55  89
+   27  27  29  45  88  67  43  78  55  66
+   22  26  27  27  29  54  45  45  63  47
+
+
+Espacio para ordenar tus datos
+
+
+
+
+
+A)El rango
+
+
+R= 
+
+
+B)La desviación media
+
+
+R=
+
+
+C)Desviación típica o estándar
+
+
+R=
+
+
+D)La varianza
+
+
+R=
+
+
+
+
+
+CONCLUSIÓN:_____________________________________________________________________________________________________
+
+________________________________________________________________________________________________________________

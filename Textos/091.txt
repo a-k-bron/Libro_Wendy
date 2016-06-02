@@ -1,0 +1,50 @@
+﻿PROBLEMA 3.7 PARA DATOS AGRUPADOS
+Una compañia telefónica realizó un estudio para determinar la duración de las llamadas de larga
+distancia en minutos con el fin de otorfar el serrvicio a mayor número de minutos menor sería el costo
+de las llamadas. Los datos son los siguientes:
+
+    Duración de la llamada en minutos  1-3   4-7   8-11   12-15   16-19   20-23
+    Frecuencia de las llamadas          4     5     7       2       1       1
+
+
+Determina:
+
+
+A)El rango
+
+
+
+
+
+R=
+
+B)Tamaño de clase
+
+
+
+
+
+R=
+
+
+
+          Tabla de distribución de frecuencias (tabla 3) 
+ Columna     Tamaño de clase     Marca de clase Ki       No. de observaciones
+                                                         o frecuencia (fi)
+   A
+   B
+   C
+   D
+   E
+             Sumas
+         
+
+C)La desviacióm media
+
+
+
+
+
+R=
+
+

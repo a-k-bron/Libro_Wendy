@@ -1,0 +1,40 @@
+﻿Para calcular las medidas de dispersión para datos agrupados utilizando Excel, la tabla de Excel con
+sus respectivas fórmulas quedaria de la siguiente manera:
+
+                 Tabla de fórmulas de excel                Tabla de fórmulas de excel
+         A         B          C         D             A         B          C         D       
+
+             1      Datos ordenados                   1      Datos ordenados
+             2    33.1    33.8   34.8                 2   33.1    33.8   34.8
+             3    33.1    33.8   35                   3   33.1    33.8   35
+             4    33.3    33.8   35.1                 4   33.3    33.8   35.1
+             5    33.3    33.8   35.1                 5   33.3    33.8   35.1
+             6    33.4    33.9   35.2                 6   33.4    33.9   35.2
+             7    33.4    33.9   35.3                 7   33.4    33.9   35.3
+             8    33.5    33.9   35.4                 8   33.5    33.9   35.4
+             9    33.5    34.4   35.4                 9   33.5    34.4   35.4
+            10    33.6    34.5   35.5                10   33.6    34.5   35.5
+            11    33.7    34.7   35.5                11   33.7    34.7   35.5
+            12                                       12
+            13  Rango  =(C11-A2)                     13   Rango               2.4
+            14 Desviación Media =DESVPROM(A2:C11)    14   Desviación Media    0.7331
+            15 Varianza   VAR(A2:C11)                 15   Varianza           0.6424
+
+
+Observa que existe cierta diferencia entre los valorres obtenidos con Excl el procedimiento manual,
+la diferencia radica en que Excel utiliza todos los decimales y el método manual solo 4.
+
+MINI EXAMEN
+Resuelve los problemas 3.1 a 3.7 con Excel y corrobora tus resultados con los ejercicios resueltos 
+manualmente.
+
+Problema No.       Rango          Desviación Media     Desviación Estándar     Varianza
+3.1 1er turno                       
+3.1 2do turno                       
+3.1 3er turno                      
+   3.2                    
+   3.3                     
+   3.4
+   3.5
+   3.6
+   3.7                 

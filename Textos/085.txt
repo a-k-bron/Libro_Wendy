@@ -1,0 +1,35 @@
+﻿PROBLEMA 3.4 PARA DATOS AGRUPADOS
+Durante el semestre pasado un profesor de la clase de álgebra realizó actividades para incrementar
+el conocimiento de sus alumnos y al final aplicó una muestra a 40 alumnos de manera aleatoria. Los
+resultados en calificaciones finales sobre 100 puntos se muestran en la siguiente tabla:
+
+
+    Datos desoredenados                             Datos ordenados
+    89   100   98   74
+    85   100   97   77
+    91    77   93   98
+    93    88   87  100
+    78    77   85   93
+    77    95   95   81
+    75    98   78   81
+    95   100   71   96
+   100    99   81   93
+    91    98   86   91 
+
+
+Determina:
+
+A)El rango
+
+
+
+
+
+R=
+
+
+B)Tamaño de clase
+
+
+
+R=

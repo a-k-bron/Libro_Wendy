@@ -1,0 +1,41 @@
+﻿3.5 RANGO PARA DATOS NO AGRUAPADOS
+
+EJEMPLO RESUELTO NO.2
+De medidas de dispersión con datos agrupados
+
+Problema: Los datos de la siguiente tabla muestran la cantidad (en miles de kilómetros) recorridos por 30
+aeronaves durante el último año.
+
+Rango: La forma de obtener el rango es similar a los datos no agrupados, es decir, el número mayor menos 
+el número menor, para lo cual es recomendable ordenar los datos en orden ascendente.
+
+
+             Datos desordenados              Datos ordenados
+           34.8   33.8    33.1               33.1    33.8   34.8
+           35.0   33.8    33.1               33.1    33.8   35
+           35.1   33.8    33.3               33.3    33.8   35.1
+           35.1   33.8    33.3               33.3    33.8   35.1
+           35.2   33.9    33.4               33.4    33.9   35.2
+           35.3   33.9    33.4               33.4    33.9   35.3
+           35.4   33.9    33.5               33.5    33.9   35.4
+           35.4   34.4    33.5               33.5    34.4   35.4
+           35.5   34.5    33.6               33.6    34.5   35.5
+           35.5   34.7    33.7               33.7    34.7   35.5
+
+
+Como los datos ya estan ordenados de menor a mayor, el rango se obtiene fácilmente por la resta de estos
+números.
+
+
+       Rango= 35.5-33.1=2.4
+       Tamaño de clase=2.4= 0.8 (dividido entre 3, por ser 3 columnas de 10 en 10).
+
+
+                Tabla de distribución de frecuencias (tabla 3)
+
+  Columna          Tamaño           Marca de clase K            No. de observaciones
+                                                               o frecuencia (F1)
+    A            De 33.1 a 33.9       33.5                        17
+    B            De 34.0 a 34.8       34.4                         4
+    C            De 34.9 a 35.5       35.2                         9
+                   Sumas                                          30

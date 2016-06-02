@@ -1,0 +1,35 @@
+﻿2.6 SOLUCIÓN CON EXCEL
+Es sumamente sencillo utilizar Excel para resolver las medidas de tendencia central para datos agru-
+pados y no agrupados
+
+
+Fundamentalmente es necesario seguir los siguientes pasos:
+
+1.Capturar los datos en una hoja de Excel.
+2.Dar clic en la pestaña de fórmulas.
+3.Dar clic en el submenú fx (insertar función).
+4.Seleccionar la categoría de estadísticas.
+5.Seleccionar la función que queremos calcular (media o promedio "PROMEDIO"; mediana
+"MEDIANA"; moda "MODA"; media geométrica "MEDIA.GEOM" y media armónica "MEDIA.ARMO").
+6.Seleccionar los datoss de los cuales queremos calcular las medidas de tendencia central antes
+mencionadas.
+
+
+A continuación resolveremos utilizando Excel el ejemplo resuelto No. 1 de medidas de tendencia
+central para datos No agrupados.
+
+
+
+EJEMPLO RESUELTO NO. 1
+
+Un estudiante obtuvo las siguientes calificaciones durante el semestre pasado:
+
+
+                       Materia        Calificación
+                       
+                    Administración       100
+                    Contabilidad          90
+                     Matemáticas          60
+                     Computación          95
+                     Metodología         100
+                       Inglés             85
