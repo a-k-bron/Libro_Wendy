@@ -76,7 +76,7 @@ public class frmGraficas extends JDialog {
                 pastel.setValue("LG", 12);
                 pastel.setValue("Motorola", 4);
                 pastel.setValue("otros", 2);
-                grafica = ChartFactory.createPieChart("", pastel, true, true, false);
+                grafica = ChartFactory.createPieChart3D("", pastel, true, true, false);
                 return new ChartPanel(grafica);
             case 23:
                 //todo graficas de la 23
@@ -145,7 +145,6 @@ public class frmGraficas extends JDialog {
                 return new ChartPanel(grafica);
             case 35:
                 series = new XYSeries("grafica");
-                //// TODO grafica pag 35 
                 series.add(0, 0);
                 series.add(1, 17);
                 series.add(2, 15);
@@ -202,6 +201,37 @@ public class frmGraficas extends JDialog {
 
                 grafica = ChartFactory.createXYLineChart("Digipunto Hunter", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
                 return new ChartPanel(grafica);
+            case 36:
+                pastel = new DefaultPieDataset();
+
+                pastel.setValue("A 8%", 8);
+                pastel.setValue("B 8%", 8);
+                pastel.setValue("C 18%", 18);
+                pastel.setValue("D 48%", 48);
+                pastel.setValue("E 18%", 18);
+                grafica = ChartFactory.createPieChart3D("Gráfica circular o  de sectores", pastel, true, true, false);
+                return new ChartPanel(grafica);
+            case 38:
+                //// TODO: 03/06/2016 graficas de la  38
+                new frmPag38();
+                data = new DefaultCategoryDataset();
+
+                data.addValue(4, "A", "10.4     12.4");
+                data.addValue(4, "B", "12.5     14.4");
+                data.addValue(9, "C", "14.5     16.4");
+                data.addValue(24, "D", "16.5    18.4");
+                data.addValue(9, "E", "18.5     20.4");
+
+                grafica = ChartFactory.createBarChart3D("", "", "", data, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+
+            case 39:
+                //// TODO: 03/06/2016 graficas de la 39
+                break;
+            case 40:
+                // TODO: 03/06/2016 graficas de la 40
+                break;
+
 
 
         }
