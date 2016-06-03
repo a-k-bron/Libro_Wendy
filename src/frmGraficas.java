@@ -29,6 +29,7 @@ public class frmGraficas extends JDialog {
         DefaultPieDataset pastel;
         XYSeries series;
         XYDataset datosParaLinea;
+        float porcentaje;
         switch (numpagina) {
 
             case 18:
@@ -79,8 +80,18 @@ public class frmGraficas extends JDialog {
                 grafica = ChartFactory.createPieChart3D("", pastel, true, true, false);
                 return new ChartPanel(grafica);
             case 23:
-                //todo graficas de la 23
-                break;
+                new frmPag23();
+                porcentaje = 100f / (frmPag23.unam + frmPag23.toluca + frmPag23.guadalajara + frmPag23.cruzAzul + frmPag23.america);
+                pastel = new DefaultPieDataset();
+
+                pastel.setValue("Guadalajara " + String.valueOf(frmPag23.guadalajara * porcentaje) + "%", frmPag23.guadalajara * porcentaje);
+                pastel.setValue("America " + String.valueOf(frmPag23.america * porcentaje) + "%", frmPag23.america * porcentaje);
+                pastel.setValue("Toluca " + String.valueOf(frmPag23.toluca * porcentaje) + "%", frmPag23.toluca * porcentaje);
+                pastel.setValue("UNAM " + String.valueOf(frmPag23.unam * porcentaje) + "%", frmPag23.unam * porcentaje);
+                pastel.setValue("Cruz Azul " + String.valueOf(frmPag23.cruzAzul * porcentaje) + "%", frmPag23.cruzAzul * porcentaje);
+
+                grafica = ChartFactory.createPieChart3D("", pastel, true, true, false);
+                return new ChartPanel(grafica);
             case 29:
                 data = new DefaultCategoryDataset();
 
@@ -237,7 +248,7 @@ public class frmGraficas extends JDialog {
 
             case 40:
                 new frmPag38();
-                float porcentaje = 100f / (frmPag38.a + frmPag38.b + frmPag38.c + frmPag38.d);
+                porcentaje = 100f / (frmPag38.a + frmPag38.b + frmPag38.c + frmPag38.d);
                 pastel = new DefaultPieDataset();
 
                 pastel.setValue("A " + String.valueOf(frmPag38.a * porcentaje) + "%", frmPag38.a * porcentaje);
