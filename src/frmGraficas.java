@@ -212,26 +212,41 @@ public class frmGraficas extends JDialog {
                 grafica = ChartFactory.createPieChart3D("Gráfica circular o  de sectores", pastel, true, true, false);
                 return new ChartPanel(grafica);
             case 38:
-                //// TODO: 03/06/2016 graficas de la  38
+
+                new frmPag38();
+                series = new XYSeries("grafica");
+                series.add(1, frmPag38.a);
+                series.add(2, frmPag38.b);
+                series.add(3, frmPag38.c);
+                series.add(4, frmPag38.d);
+                datosParaLinea = new XYSeriesCollection(series);
+                grafica = ChartFactory.createXYLineChart("Poligono de frecuencia", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+
+            case 39:
                 new frmPag38();
                 data = new DefaultCategoryDataset();
 
-                data.addValue(4, "A", "10.4     12.4");
-                data.addValue(4, "B", "12.5     14.4");
-                data.addValue(9, "C", "14.5     16.4");
-                data.addValue(24, "D", "16.5    18.4");
-                data.addValue(9, "E", "18.5     20.4");
+                data.addValue(frmPag38.a, "A", "A");
+                data.addValue(frmPag38.b, "B", "B");
+                data.addValue(frmPag38.c, "C", "C");
+                data.addValue(frmPag38.d, "D", "D");
 
                 grafica = ChartFactory.createBarChart3D("", "", "", data, PlotOrientation.VERTICAL, true, true, false);
                 return new ChartPanel(grafica);
 
-            case 39:
-                //// TODO: 03/06/2016 graficas de la 39
-                break;
             case 40:
-                // TODO: 03/06/2016 graficas de la 40
-                break;
+                new frmPag38();
+                float porcentaje = 100f / (frmPag38.a + frmPag38.b + frmPag38.c + frmPag38.d);
+                pastel = new DefaultPieDataset();
 
+                pastel.setValue("A " + String.valueOf(frmPag38.a * porcentaje) + "%", frmPag38.a * porcentaje);
+                pastel.setValue("B " + String.valueOf(frmPag38.b * porcentaje) + "%", frmPag38.b * porcentaje);
+                pastel.setValue("C " + String.valueOf(frmPag38.c * porcentaje) + "%", frmPag38.c * porcentaje);
+                pastel.setValue("D " + String.valueOf(frmPag38.d * porcentaje) + "%", frmPag38.d * porcentaje);
+
+                grafica = ChartFactory.createPieChart3D("", pastel, true, true, false);
+                return new ChartPanel(grafica);
 
 
         }
