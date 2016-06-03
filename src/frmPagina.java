@@ -20,6 +20,7 @@ public class frmPagina extends JDialog {
         paginaSiguinte = Integer.parseInt(numeroPag);
         mostrarPagina(numeroPag);
         setSize(1000, 700);
+
         btnAnterior.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -61,6 +62,7 @@ public class frmPagina extends JDialog {
 
             }
         });
+
         setVisible(true);
     }
 
