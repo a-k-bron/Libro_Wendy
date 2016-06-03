@@ -4,6 +4,9 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
+import org.jfree.data.xy.XYDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
 
 import javax.swing.*;
 
@@ -24,6 +27,8 @@ public class frmGraficas extends JDialog {
         JFreeChart grafica;
         DefaultCategoryDataset data;
         DefaultPieDataset pastel;
+        XYSeries series = null;
+        XYDataset datosParaLinea;
         switch (numpagina) {
 
             case 18:
@@ -109,8 +114,51 @@ public class frmGraficas extends JDialog {
 
                 grafica = ChartFactory.createBarChart3D("", "", "", data, PlotOrientation.VERTICAL, true, true, false);
                 return new ChartPanel(grafica);
+            case 32:
+
+                series = new XYSeries("grafica");
+
+                series.add(0, 10.4);
+                series.add(8, 12.4);
+                series.add(16, 14.4);
+                series.add(34, 16.4);
+                series.add(82, 18.4);
+                series.add(100, 20.4);
+
+                datosParaLinea = new XYSeriesCollection(series);
+
+                grafica = ChartFactory.createXYLineChart("Grafica de Frecuencia acumulativa relativa", "", "", datosParaLinea, PlotOrientation.HORIZONTAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 33:
+                series = new XYSeries("grafica");
+
+                series.add(0, 10.4);
+                series.add(4, 12.4);
+                series.add(8, 14.4);
+                series.add(17, 16.4);
+                series.add(41, 18.4);
+                series.add(50, 20.4);
+
+                datosParaLinea = new XYSeriesCollection(series);
+
+                grafica = ChartFactory.createXYLineChart("Grafica de Frecuencia acumulativa", "", "", datosParaLinea, PlotOrientation.HORIZONTAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 35:
+                series = new XYSeries("grafica");
+                //// TODO grafica pag 35 
+                series.add(0, 0);
+                series.add(17, 1);
+                series.add(15, 2);
+                series.add(17.2, 3);
+
+                datosParaLinea = new XYSeriesCollection(series);
+
+                grafica = ChartFactory.createXYLineChart("Grafica de Frecuencia acumulativa", "", "", datosParaLinea, PlotOrientation.HORIZONTAL, true, true, false);
+                return new ChartPanel(grafica);
+
 
         }
+
         return null;
     }
 
