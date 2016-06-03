@@ -7,6 +7,7 @@ public class Principal {
 
     public static void main(String[] args) throws ClassNotFoundException, UnsupportedLookAndFeelException, InstantiationException, IllegalAccessException {
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        System.out.println("holaaa");
         new frmPortada();
     }
 }
