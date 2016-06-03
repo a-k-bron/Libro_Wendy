@@ -27,7 +27,7 @@ public class frmGraficas extends JDialog {
         JFreeChart grafica;
         DefaultCategoryDataset data;
         DefaultPieDataset pastel;
-        XYSeries series = null;
+        XYSeries series;
         XYDataset datosParaLinea;
         switch (numpagina) {
 
@@ -147,13 +147,60 @@ public class frmGraficas extends JDialog {
                 series = new XYSeries("grafica");
                 //// TODO grafica pag 35 
                 series.add(0, 0);
-                series.add(17, 1);
-                series.add(15, 2);
-                series.add(17.2, 3);
+                series.add(1, 17);
+                series.add(2, 15);
+                series.add(3, 17.2);
+                series.add(4, 17.4);
+                series.add(5, 15);
+                series.add(6, 18);
+                series.add(7, 16.2);
+                series.add(8, 18.2);
+                series.add(9, 19);
+                series.add(10, 17);
+                series.add(11, 17.4);
+                series.add(12, 18.4);
+                series.add(13, 13.4);
+                series.add(14, 15.8);
+                series.add(15, 16.2);
+                series.add(16, 14.3);
+                series.add(17, 17.6);
+                series.add(18, 17.5);
+                series.add(19, 19.1);
+                series.add(20, 15.8);
+                series.add(21, 15.2);
+                series.add(22, 14.8);
+                series.add(23, 14.5);
+                series.add(24, 17.6);
+                series.add(25, 17.9);
+                series.add(26, 10.4);
+                series.add(27, 11.5);
+                series.add(28, 16.1);
+                series.add(29, 17.9);
+                series.add(30, 17.7);
+                series.add(31, 17.8);
+                series.add(32, 17.2);
+                series.add(33, 17.9);
+                series.add(34, 18);
+                series.add(35, 16.7);
+                series.add(36, 12.4);
+                series.add(37, 15.8);
+                series.add(38, 16.1);
+                series.add(39, 16.3);
+                series.add(40, 16.5);
+                series.add(41, 16.7);
+                series.add(42, 16.1);
+                series.add(43, 19.9);
+                series.add(44, 11.2);
+                series.add(45, 18.3);
+                series.add(46, 16.1);
+                series.add(47, 16.3);
+                series.add(48, 18.7);
+                series.add(49, 16.4);
+                series.add(50, 19.7);
 
                 datosParaLinea = new XYSeriesCollection(series);
 
-                grafica = ChartFactory.createXYLineChart("Grafica de Frecuencia acumulativa", "", "", datosParaLinea, PlotOrientation.HORIZONTAL, true, true, false);
+                grafica = ChartFactory.createXYLineChart("Digipunto Hunter", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
                 return new ChartPanel(grafica);
 
 
