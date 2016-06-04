@@ -96,7 +96,7 @@ public class frmPagina extends JDialog {
 
     private boolean mostrarBoton(int pagina) {
         int[] paginasConGrafica = new int[]{18, 19, 21, 22, 23, 29, 30, 31, 32, 33,
-                34, 35, 36, 37, 38, 39, 40, 48};
+                34, 35, 36, 37, 38, 39, 40};
 
         for (int i = 0; i < paginasConGrafica.length; i++) {
             if (pagina == paginasConGrafica[i]) {
