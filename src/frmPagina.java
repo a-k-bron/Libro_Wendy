@@ -10,6 +10,7 @@ public class frmPagina extends JDialog {
     private JButton btnSiguiente;
     private JToolBar jtMenu;
     private JButton btnGraficas;
+    private JLabel contadorPagina;
     private BufferedReader b = null;
     private int paginaSiguinte;
 
@@ -20,6 +21,13 @@ public class frmPagina extends JDialog {
         paginaSiguinte = Integer.parseInt(numeroPag);
         mostrarPagina(numeroPag);
         setSize(1000, 700);
+
+        if (mostrarBoton(paginaSiguinte)) {
+            btnGraficas.setVisible(true);
+        } else {
+            btnGraficas.setVisible(false);
+        }
+        contadorPagina.setText(String.valueOf(paginaSiguinte));
 
         btnAnterior.addActionListener(new ActionListener() {
             @Override
@@ -71,16 +79,22 @@ public class frmPagina extends JDialog {
         try {
             //"out/production/Libro_Wendy/Textos/" + numeroPagina + ".txt"
             //b = new BufferedReader(new InputStreamReader(new FileInputStream("out/production/Libro_Wendy/Textos/" + numeroPagina + ".txt"), "utf-8"));
+            contadorPagina.setText(String.valueOf(paginaSiguinte));
+            if (mostrarBoton(Integer.parseInt(numeroPagina))) {
+                btnGraficas.setVisible(true);
+            } else {
+                btnGraficas.setVisible(false);
+            }
+
             b = new BufferedReader(new InputStreamReader(new FileInputStream("Textos/" + numeroPagina + ".txt"), "utf-8"));
             String cadena;
-            StringBuffer sb = new StringBuffer();
+            StringBuilder sb = new StringBuilder();
             while ((cadena = b.readLine()) != null) {
                 sb.append(cadena).append('\n');
             }
             textArea1.setText(sb.toString());
         } catch (FileNotFoundException e) {
             JOptionPane.showMessageDialog(frmPagina.this, "se termino el libro");
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -96,7 +110,7 @@ public class frmPagina extends JDialog {
 
     private boolean mostrarBoton(int pagina) {
         int[] paginasConGrafica = new int[]{18, 19, 21, 22, 23, 29, 30, 31, 32, 33,
-                34, 35, 36, 37, 38, 39, 40};
+                35, 36, 38, 39, 40};
 
         for (int i = 0; i < paginasConGrafica.length; i++) {
             if (pagina == paginasConGrafica[i]) {

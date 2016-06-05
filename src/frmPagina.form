@@ -43,6 +43,16 @@
                   <text value="Mostrar Graficas"/>
                 </properties>
               </component>
+              <component id="75968" class="javax.swing.JSeparator">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="cef15" class="javax.swing.JLabel" binding="contadorPagina">
+                <constraints/>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
             </children>
           </toolbar>
           <scrollpane id="41159">
