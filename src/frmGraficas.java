@@ -1,7 +1,4 @@
-import graficas.frmPag112;
-import graficas.frmPag113;
-import graficas.frmPag23;
-import graficas.frmPag38;
+import graficas.*;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -27,7 +24,7 @@ public class frmGraficas extends JDialog {
         setVisible(true);
     }
 
-    private ChartPanel mostrargrafiaca(int numpagina) {
+    private JPanel mostrargrafiaca(int numpagina) {
         JFreeChart grafica;
         DefaultCategoryDataset data;
         DefaultPieDataset pastel;
@@ -348,6 +345,53 @@ public class frmGraficas extends JDialog {
                 grafica = ChartFactory.createXYLineChart("Gráfica de digipunto de Hunter", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
                 return new ChartPanel(grafica);
 
+            case 121:
+                series = new XYSeries("grafica");
+                series.add(0, 35);
+
+                series.add(45, 120);
+                datosParaLinea = new XYSeriesCollection(series);
+                grafica = ChartFactory.createXYLineChart("", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 125:
+                new frmPag125();
+                series = new XYSeries("grafica");
+                series.add(frmPag125.km1, frmPag125.c1);
+                series.add(frmPag125.km2, frmPag125.c2);
+                series.add(frmPag125.km3, frmPag125.c3);
+                series.add(frmPag125.km4, frmPag125.c4);
+                series.add(frmPag125.km5, frmPag125.c5);
+                series.add(frmPag125.km6, frmPag125.c6);
+                series.add(frmPag125.km7, frmPag125.c7);
+                series.add(frmPag125.km8, frmPag125.c8);
+                series.add(frmPag125.km9, frmPag125.c9);
+                series.add(frmPag125.km10, frmPag125.c10);
+
+                datosParaLinea = new XYSeriesCollection(series);
+                grafica = ChartFactory.createXYLineChart("", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 127:
+                new frmPag125();
+                series = new XYSeries("grafica");
+                series.add(frmPag127.po1, frmPag127.sb1);
+                series.add(frmPag127.po2, frmPag127.sb2);
+                series.add(frmPag127.po3, frmPag127.sb3);
+                series.add(frmPag127.po4, frmPag127.sb4);
+                series.add(frmPag127.po5, frmPag127.sb5);
+                series.add(frmPag127.po6, frmPag127.sb6);
+                series.add(frmPag127.po7, frmPag127.sb7);
+                series.add(frmPag127.po8, frmPag127.sb8);
+                series.add(frmPag127.po9, frmPag127.sb9);
+                series.add(frmPag127.po10, frmPag127.sb10);
+                datosParaLinea = new XYSeriesCollection(series);
+                grafica = ChartFactory.createXYLineChart("", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 137:
+                return new frmPag137().contentPane;
+            case 138:
+                return new frmPag138().contentPane;
+            case 139:
+                return new frmPag139().contentPane;
         }
 
         return null;
