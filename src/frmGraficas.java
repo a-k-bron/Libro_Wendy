@@ -259,6 +259,56 @@ public class frmGraficas extends JDialog {
                 grafica = ChartFactory.createPieChart3D("", pastel, true, true, false);
                 return new ChartPanel(grafica);
 
+            case 99:
+                series = new XYSeries("grafica");
+                series.add(1, 0);
+                series.add(2, 1);
+                series.add(2.7, 7.5);
+                series.add(3, 8);
+                series.add(3.3, 7.5);
+                series.add(4, 1);
+                series.add(5, 0);
+                datosParaLinea = new XYSeriesCollection(series);
+                grafica = ChartFactory.createXYLineChart("distribucion simétrica", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 101:
+                series = new XYSeries("grafica");
+                series.add(1, 0);
+                series.add(2, 1);
+                series.add(2.7, 7.5);
+                series.add(3, 8);
+                series.add(3.3, 7.5);
+                series.add(4, 1);
+                series.add(5, 0);
+                datosParaLinea = new XYSeriesCollection(series);
+                grafica = ChartFactory.createXYLineChart("distribucion simétrica", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 111:
+                new frmPag38();
+                data = new DefaultCategoryDataset();
+
+                data.addValue(frmPag38.a, "A", "A");
+                data.addValue(frmPag38.b, "B", "B");
+                data.addValue(frmPag38.c, "C", "C");
+                data.addValue(frmPag38.d, "D", "D");
+
+                grafica = ChartFactory.createBarChart3D("", "", "", data, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
+            case 112:
+                new frmPag112();
+                porcentaje = 100f / (frmPag112.a + frmPag112.b + frmPag112.c);
+                pastel = new DefaultPieDataset();
+
+                pastel.setValue("A ", frmPag112.a * porcentaje);
+                pastel.setValue("B ", frmPag112.b * porcentaje);
+                pastel.setValue("C ", frmPag112.c * porcentaje);
+                grafica = ChartFactory.createPieChart3D("", pastel, true, true, false);
+                return new ChartPanel(grafica);
+
+            case 113:
+                // TODO: 06/06/2016 pagina 113
+                break;
+
 
         }
 

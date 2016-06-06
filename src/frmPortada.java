@@ -11,7 +11,7 @@ public class frmPortada extends JFrame {
     private JLabel lblImagen;
 
     public frmPortada() {
-        super("Libro v2");
+        super("Libro v0.7");
         setContentPane(panel1);
         pack();
         setSize(380, 650);
