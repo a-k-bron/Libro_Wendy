@@ -1,3 +1,5 @@
+package graficas;
+
 import org.jfree.chart.JFreeChart;
 import org.jfree.data.category.DefaultCategoryDataset;
 import org.jfree.data.general.DefaultPieDataset;
@@ -35,11 +37,16 @@ public class frmPag38 extends JDialog {
         btnBarras.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                a = Integer.parseInt(textField1.getText());
-                b = Integer.parseInt(textField2.getText());
-                c = Integer.parseInt(textField3.getText());
-                d = Integer.parseInt(textField4.getText());
-                setVisible(false);
+                try {
+                    a = Integer.parseInt(textField1.getText());
+                    b = Integer.parseInt(textField2.getText());
+                    c = Integer.parseInt(textField3.getText());
+                    d = Integer.parseInt(textField4.getText());
+                    setVisible(false);
+                } catch (Exception err) {
+                    JOptionPane.showMessageDialog(frmPag38.this, err.getMessage());
+                }
+
             }
         });
         setVisible(true);

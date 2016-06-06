@@ -1,3 +1,5 @@
+package graficas;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,12 +26,19 @@ public class frmPag23 extends JDialog {
         btnAceptar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                america = Integer.parseInt(America.getText());
-                cruzAzul = Integer.parseInt(CruzAzul.getText());
-                guadalajara = Integer.parseInt(Guadalajara.getText());
-                toluca = Integer.parseInt(Toluca.getText());
-                unam = Integer.parseInt(UNAM.getText());
-                setVisible(false);
+
+                try {
+                    america = Integer.parseInt(America.getText());
+                    cruzAzul = Integer.parseInt(CruzAzul.getText());
+                    guadalajara = Integer.parseInt(Guadalajara.getText());
+                    toluca = Integer.parseInt(Toluca.getText());
+                    unam = Integer.parseInt(UNAM.getText());
+                    setVisible(false);
+                } catch (Exception err) {
+                    JOptionPane.showMessageDialog(frmPag23.this, err.getMessage());
+
+                }
+
 
             }
         });

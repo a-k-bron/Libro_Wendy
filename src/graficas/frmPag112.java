@@ -1,3 +1,5 @@
+package graficas;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,11 +18,16 @@ public class frmPag112 extends JDialog {
         btnAceptar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                a = Float.parseFloat(txfA.getText());
-                b = Float.parseFloat(txfB.getText());
-                c = Float.parseFloat(txfC.getText());
+                try {
+                    a = Float.parseFloat(txfA.getText());
+                    b = Float.parseFloat(txfB.getText());
+                    c = Float.parseFloat(txfC.getText());
 
-                setVisible(false);
+                    setVisible(false);
+                } catch (Exception err) {
+                    JOptionPane.showMessageDialog(frmPag112.this, err.getMessage());
+                }
+
             }
         });
         setSize(300, 300);

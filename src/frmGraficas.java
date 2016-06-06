@@ -1,3 +1,7 @@
+import graficas.frmPag112;
+import graficas.frmPag113;
+import graficas.frmPag23;
+import graficas.frmPag38;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -306,9 +310,43 @@ public class frmGraficas extends JDialog {
                 return new ChartPanel(grafica);
 
             case 113:
-                // TODO: 06/06/2016 pagina 113
-                break;
-
+                new frmPag113();
+                series = new XYSeries("grafica");
+                series.add(1, frmPag113.p1);
+                series.add(2, frmPag113.p2);
+                series.add(3, frmPag113.p3);
+                series.add(4, frmPag113.p4);
+                series.add(5, frmPag113.p5);
+                series.add(6, frmPag113.p6);
+                series.add(7, frmPag113.p7);
+                series.add(8, frmPag113.p8);
+                series.add(9, frmPag113.p9);
+                series.add(10, frmPag113.p10);
+                series.add(11, frmPag113.p11);
+                series.add(12, frmPag113.p12);
+                series.add(13, frmPag113.p13);
+                series.add(14, frmPag113.p14);
+                series.add(15, frmPag113.p15);
+                series.add(16, frmPag113.p16);
+                series.add(17, frmPag113.p17);
+                series.add(18, frmPag113.p18);
+                series.add(19, frmPag113.p19);
+                series.add(20, frmPag113.p20);
+                series.add(21, frmPag113.p21);
+                series.add(22, frmPag113.p22);
+                series.add(23, frmPag113.p23);
+                series.add(24, frmPag113.p24);
+                series.add(25, frmPag113.p25);
+                series.add(26, frmPag113.p26);
+                series.add(27, frmPag113.p27);
+                series.add(28, frmPag113.p28);
+                series.add(29, frmPag113.p29);
+                series.add(30, frmPag113.p30);
+                series.add(31, frmPag113.p31);
+                series.add(32, frmPag113.p32);
+                datosParaLinea = new XYSeriesCollection(series);
+                grafica = ChartFactory.createXYLineChart("Gráfica de digipunto de Hunter", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
+                return new ChartPanel(grafica);
 
         }
 
