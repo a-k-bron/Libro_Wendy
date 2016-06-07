@@ -384,7 +384,7 @@ public class frmGraficas extends JDialog {
                 series.add(frmPag127.po9, frmPag127.sb9);
                 series.add(frmPag127.po10, frmPag127.sb10);
                 datosParaLinea = new XYSeriesCollection(series);
-                grafica = ChartFactory.createXYLineChart("", "", "", datosParaLinea, PlotOrientation.HORIZONTAL, true, true, false);
+                grafica = ChartFactory.createXYLineChart("", "", "", datosParaLinea, PlotOrientation.VERTICAL, true, true, false);
                 return new ChartPanel(grafica);
             case 137:
                 return new frmPag137().contentPane;

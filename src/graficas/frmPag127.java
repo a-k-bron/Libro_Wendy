@@ -1,6 +1,8 @@
 package graficas;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class frmPag127 extends JDialog {
     private JPanel contentPane;
@@ -34,33 +36,38 @@ public class frmPag127 extends JDialog {
         setContentPane(contentPane);
         setModal(true);
         setSize(400, 400);
-        try {
-            po1 = Integer.parseInt(textField1.getText());
-            po2 = Integer.parseInt(textField2.getText());
-            po3 = Integer.parseInt(textField3.getText());
-            po4 = Integer.parseInt(textField4.getText());
-            po5 = Integer.parseInt(textField5.getText());
-            po6 = Integer.parseInt(textField6.getText());
-            po7 = Integer.parseInt(textField7.getText());
-            po8 = Integer.parseInt(textField8.getText());
-            po9 = Integer.parseInt(textField9.getText());
-            po10 = Integer.parseInt(textField10.getText());
+        btnAceptar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    po1 = Integer.parseInt(textField1.getText());
+                    po2 = Integer.parseInt(textField2.getText());
+                    po3 = Integer.parseInt(textField3.getText());
+                    po4 = Integer.parseInt(textField4.getText());
+                    po5 = Integer.parseInt(textField5.getText());
+                    po6 = Integer.parseInt(textField6.getText());
+                    po7 = Integer.parseInt(textField7.getText());
+                    po8 = Integer.parseInt(textField8.getText());
+                    po9 = Integer.parseInt(textField9.getText());
+                    po10 = Integer.parseInt(textField10.getText());
 
-            sb1 = Integer.parseInt(textField11.getText());
-            sb2 = Integer.parseInt(textField12.getText());
-            sb3 = Integer.parseInt(textField13.getText());
-            sb4 = Integer.parseInt(textField14.getText());
-            sb5 = Integer.parseInt(textField15.getText());
-            sb6 = Integer.parseInt(textField16.getText());
-            sb7 = Integer.parseInt(textField17.getText());
-            sb8 = Integer.parseInt(textField18.getText());
-            sb9 = Integer.parseInt(textField19.getText());
-            sb10 = Integer.parseInt(textField20.getText());
+                    sb1 = Integer.parseInt(textField11.getText());
+                    sb2 = Integer.parseInt(textField12.getText());
+                    sb3 = Integer.parseInt(textField13.getText());
+                    sb4 = Integer.parseInt(textField14.getText());
+                    sb5 = Integer.parseInt(textField15.getText());
+                    sb6 = Integer.parseInt(textField16.getText());
+                    sb7 = Integer.parseInt(textField17.getText());
+                    sb8 = Integer.parseInt(textField18.getText());
+                    sb9 = Integer.parseInt(textField19.getText());
+                    sb10 = Integer.parseInt(textField20.getText());
 
-            setVisible(false);
-        } catch (Exception err) {
-            JOptionPane.showMessageDialog(frmPag127.this, err.getMessage());
-        }
+                    setVisible(false);
+                } catch (Exception err) {
+                    JOptionPane.showMessageDialog(frmPag127.this, err.getMessage());
+                }
+            }
+        });
         setVisible(true);
     }
 }
