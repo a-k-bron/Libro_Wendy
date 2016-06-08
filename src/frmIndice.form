@@ -35,6 +35,7 @@
                 <constraints/>
                 <properties>
                   <model>
+                    <item value="001 Probabilidad y estadistica"/>
                     <item value="003 índice"/>
                     <item value="005 Introducción"/>
                     <item value="006 Aplicación de las competencias de acuerdo a RIEMS"/>
